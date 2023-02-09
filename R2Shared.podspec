@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   
   s.dependency 'Fuzi', '~> 3.1.3'
-  s.dependency 'Minizip', '~> 1.0.0'
   s.dependency 'SwiftSoup', '~> 2.3'
 
 end
